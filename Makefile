@@ -11,7 +11,7 @@ SRC = GFSPX_Cipher.cpp
 TARGET = gfspx
 
 # Правило для сборки программы
-all: $(TARGET)
+all: $(TARGET) $(SRC)
 
 $(TARGET): $(SRC)
 	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET)
