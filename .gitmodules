@@ -1,6 +1,6 @@
-[submodule "lib\config"]
+[submodule "lib/config"]
 	path = lib/config
 	url = https://github.com/boostorg/config.git
-[submodule "lib\multiprecision"]
+[submodule "lib/multiprecision"]
 	path = lib/multiprecision
 	url = https://github.com/boostorg/multiprecision.git
